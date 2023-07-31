@@ -1,0 +1,7 @@
+{
+  "name": "Neo-Gram",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
