@@ -1,0 +1,17 @@
+// ion-list:nth-child(3){
+//   display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+// }
+
+.logoIcon{
+  --border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+.containerLogins{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

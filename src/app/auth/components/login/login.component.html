@@ -1,0 +1,20 @@
+<form (ngSubmit)="login()">
+
+  <ion-list [inset]="true" lines="full">
+    <ion-item>
+      <ion-input label="Email: " labelPlacement="floating" type="email" [(ngModel)]="credentials.email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Password: " labelPlacement="floating" type="password" [(ngModel)]="credentials.password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <!-- <hr color="lightgray"> -->
+  <shared-login-methods/>
+
+  <!-- <hr color="gray"> -->
+  <ion-button type="submit" fill="clear" expand="full">Login</ion-button>
+
+</form>
+
+<ion-label>No tienes una cuenta? Crea una <a routerLink="/auth/signin">aquí</a></ion-label>

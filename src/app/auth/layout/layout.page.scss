@@ -1,0 +1,46 @@
+.bgra{
+    background: linear-gradient(274deg, #000000, #122a67);
+    background-size: 400% 400% !important;
+
+    -webkit-animation: AnimationName 7s ease infinite !important;
+    -moz-animation: AnimationName 7s ease infinite !important;
+    -o-animation: AnimationName 7s ease infinite !important;
+    animation: AnimationName 7s ease infinite !important;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ion-content, ion-grid, ion-card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+ion-grid{
+  height: 100%;
+}
